@@ -1,0 +1,1539 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>AirBase > Index</title>
+    <link rel="shortcut icon" href="http://localhost:26583//content/img/favicon.png">
+
+    <!-- Theme CSS -->
+    <link href="http://localhost:26583//content/Themes/application.css" rel="stylesheet" />
+
+    <!-- Date Picker -->
+    <link href="http://localhost:26583//content/Themes/daterangepicker.css" rel="stylesheet" />
+    <!-- Time Picker -->
+    <link href="http://localhost:26583//content/Themes/bootstrap-timepicker.css" rel="stylesheet" />
+    <!-- Custom CSS -->
+    <link href="http://localhost:26583//content/Themes/align.css" rel="stylesheet" />
+    <link href="http://localhost:26583//content/Themes/custom.css" rel="stylesheet" />
+    <link href="http://localhost:26583//content/Themes/toastr.min.css" rel="stylesheet" />
+    <link href="http://localhost:26583//content/awesomplete.css" rel="stylesheet" />
+    <link href="http://localhost:26583//content/Themes/easy-autocomplete.css" rel="stylesheet" />
+
+    <script src="http://localhost:26583/bundles/modernizr?r=731fa69e69ed4fb784021ab107ed24de&ver=v1"></script>
+
+    <script src="http://localhost:26583//scripts/jquery-1.10.2.min.js"></script>
+
+
+    <script src="http://localhost:26583/bundles/layoutindexjs?r=6f10dccf744347eea3b7ab6c78d890d1&ver=v1"></script>
+
+    <script type="text/javascript">
+        // Set timeout variables.
+        //var timoutWarning = 8400; // Display warning in 14 Mins.
+        var timoutNow = 28800000; //   28800000 Timeout in 8 hr.
+        var logoutUrl = '~/account/login'; // URL to logout page.
+
+        // var warningTimer;
+        var timeoutTimer;
+
+        // Start timers.
+        function StartTimers() {
+            //  warningTimer = setTimeout("IdleWarning()", timoutWarning);
+            timeoutTimer = setTimeout("IdleTimeout()", timoutNow);
+        }
+
+        // Reset timers.
+        function ResetTimers() {
+            //clearTimeout(warningTimer);
+            clearTimeout(timeoutTimer);
+            StartTimers();
+            //$("#timeout").dialog('close');
+        }
+
+        // Show idle timeout warning dialog.
+        //function IdleWarning() {
+        //    $("#timeout").dialog({
+        //        modal: true
+        //    });
+        //}
+
+        // Logout the user.
+        function IdleTimeout() {
+            window.location = logoutUrl;
+            // common.eraseCookie('UserId');
+            //common.eraseCookie('authenticationtoken');
+        }
+    </script>
+</head>
+<body onload="StartTimers();" onmousemove="ResetTimers();">
+    <div class="wrapper">
+        <input type="hidden" name="helpmenualdocument" tag="ServiceRequest" value="https://sway.com/FyJ4XWkfQPc9mH4x" />
+        <input type="hidden" name="helpmenualdocument" tag="DriverTicket" value="https://sway.com/XgnXUi9DUVqibZ4A" />
+        <input type="hidden" name="helpmenualdocument" tag="Assessment" value="https://sway.com/JFPsKIEv4KCGBvEx" />
+        <input type="hidden" name="helpmenualdocument" tag="Repair" value="https://sway.com/tHzGfVDwLPv3cHuc" />
+        <input type="hidden" name="helpmenualdocument" tag="Inspection" value="https://sway.com/OuRNwMH131b2mKDx" />
+        <input type="hidden" name="helpmenualdocument" tag="Release" value="https://sway.com/t1Gpy3TNV8xNw1TF" />
+        <input type="hidden" name="helpmenualdocument" tag="Storage" value="https://sway.com/TdumH2uo9CYQ2GGD" />
+        <input type="hidden" name="helpmenualdocument" tag="Invoice" value="https://sway.com/u4xDcqHG9iJZ5Abv" />
+        <input type="hidden" name="helpmenualdocument" tag="Allocation" value="https://sway.com/IPUuf7qsFk7uh1GA" />
+        <input type="hidden" name="helpmenualdocument" tag="CMM" value="https://sway.com/ZhaOEbWCnyS39dXn" />
+        <input type="hidden" name="helpmenualdocument" tag="ReleaseCertificate" value="https://sway.com/BILtvJFgT3kuHhkv" />
+        <input type="hidden" name="helpmenualdocument" tag="EquipmentType" value="https://sway.com/RbHchMKP0LLG04Er" />
+        <input type="hidden" name="helpmenualdocument" tag="Equipment" value="https://sway.com/PUuvAjPnheGGzIVU" />
+        <input type="hidden" name="helpmenualdocument" tag="Customer" value="https://sway.com/R5xyNrVTpDLYfbPP" />
+        <input type="hidden" name="helpmenualdocument" tag="Supplier" value="https://sway.com/ROEawakRjk8CKklQ" />
+        <input type="hidden" name="helpmenualdocument" tag="Location" value="https://sway.com/sWf6BmM4x7LoPstA" />
+        <input type="hidden" name="helpmenualdocument" tag="User" value="https://sway.com/m31hybB0C1phHJHE" />
+        <input type="hidden" name="helpmenualdocument" tag="RolesPermissions" value="https://sway.com/jJaSUMzCKEEkHfrc" />
+        <input type="hidden" name="helpmenualdocument" tag="Device" value="https://sway.com/lICBFYabFQnR59fm" />
+        <input type="hidden" name="helpmenualdocument" tag="Material" value="https://sway.com/DDTJvAHsqRPOM6tR" />
+        <input type="hidden" name="helpmenualdocument" tag="Training" value="https://sway.com/jDYL3VdkByTwLBPB" />
+        <input type="hidden" name="helpmenualdocument" tag="OEM" value="https://sway.com/Wpru6R50RFfY9H3V" />
+        <input type="hidden" name="helpmenualdocument" tag="BankAccount" value="https://sway.com/xE0Xfv9v14ALqhzw" />
+        <input type="hidden" name="helpmenualdocument" tag="IATACode" value="https://sway.com/5xzpBCefraxcGFmX" />
+        <input type="hidden" name="helpmenualdocument" tag="ActionsTaken" value="https://sway.com/72twJ8cW55XGioNP" />
+
+        <input type="hidden" name="helpmenualdocument" tag="CustomField" value="https://sway.com/CmBGLGse4Y7AX64q" />
+        <input type="hidden" name="helpmenualdocument" tag="ULDCategory" value="https://sway.com/AktQna9FvavOv1oW" />
+        <input type="hidden" name="helpmenualdocument" tag="EmailTemplate" value="https://sway.com/1VVCbI5YAETKetC5" />
+        <input type="hidden" name="helpmenualdocument" tag="HeadOfficeSetting" value="https://sway.com/Ef4bpRO0PEBoKQzR" />
+        <input type="hidden" name="helpmenualdocument" tag="DocumentCategory" value="https://sway.com/PtFM4bOuM1Zmm1kX" />
+
+        <input type="hidden" name="helpmenualdocument" tag="Documents" value="https://sway.com/BAKGFjocjSpFWj52" />
+        <input type="hidden" name="helpmenualdocument" tag="Vehicle" value="https://sway.com/ilaHQKxrxATL424p" />
+        <input type="hidden" name="helpmenualdocument" tag="JobTitle" value="https://sway.com/z9ugGlP2BXF2iQwQ" />
+
+        <input type="hidden" name="helpmenualdocument" tag="Reason" value="https://sway.com/j5QRgZLSTbDB7ZYS" />
+        <input type="hidden" name="helpmenualdocument" tag="Office" value="https://sway.com/B6Cvi87DTyCLryFs" />
+        <input type="hidden" name="helpmenualdocument" tag="ServiceTask" value="https://sway.com/CwZEtBDaCborCMuy" />
+        <input type="hidden" name="helpmenualdocument" tag="Shift" value="https://sway.com/BcJRPdesESInZltM" />
+        <input type="hidden" name="helpmenualdocument" tag="Country" value="https://sway.com/lkWiIC0RcIU3wnLM" />
+
+
+
+        <input type="hidden" name="helpmenualdocument" tag="Department" value="https://sway.com/hcOd81OLyTFA5Kxk" />
+        <input type="hidden" name="helpmenualdocument" tag="Store" value="https://sway.com/aikhIR0GbobEyQHt" />
+        <input type="hidden" name="helpmenualdocument" tag="PurchaseOrder" value="https://sway.com/ZN8fjXLqEN4ucyia" />
+        <input type="hidden" name="helpmenualdocument" tag="PartsTransactions" value="https://sway.com/sGfehPwZDcoEmyAi" />
+        <input type="hidden" name="helpmenualdocument" tag="PartBudgetFlag" value="https://sway.com/pwyMtzyTUT6GfLG8" />
+        <input type="hidden" name="helpmenualdocument" tag="Closures" value="https://sway.com/IjIGVXOK4GI2ZvCP" />
+        <input type="hidden" name="helpmenualdocument" tag="Wages" value="https://sway.com/KuzBhg0kdjSxEah8" />
+        <input type="hidden" name="helpmenualdocument" tag="HolidayTypes" value="https://sway.com/0Dq6ztG6WF4i1Xsq" />
+
+
+        <input type="hidden" name="helpmenualdocument" tag="Approvals" value="https://sway.com/HCfNydB8TzTqlhVZ" />
+        <input type="hidden" name="helpmenualdocument" tag="TaskCategory" value="https://sway.com/qFANCBM6qhAPfFYP" />
+        <input type="hidden" name="helpmenualdocument" tag="AdminBER" value="https://sway.com/MoP5onXhwOM0lp7i" />
+
+        <input type="hidden" name="helpmenualdocument" tag="TrainingType" value="https://sway.com/0XF27ANiIn3AK9TB" />
+        <input type="hidden" name="helpmenualdocument" tag="ReportDeliverables" value="https://sway.com/CQVe6RHbx6Teopky" />
+        <input type="hidden" name="helpmenualdocument" tag="ReportULDService" value="https://sway.com/j4nGDDHvC3X9nEXW" />
+
+        <input type="hidden" name="helpmenualdocument" tag="ReportAttendance" value="https://sway.com/mATCxrR6T6AanqUX" />
+        <input type="hidden" name="helpmenualdocument" tag="VatRate" value="https://sway.com/3CosyUvNMHGBn2We" />
+        <input type="hidden" name="helpmenualdocument" tag="TrainingReview" value="https://sway.com/HhvsuivKXdlxJQGg" />
+
+
+        <div class="logo">
+            <h4>
+                <a href="/Dashboard"><img src="http://localhost:26583//content/img/logo1.png" /></a>
+                <a href="#" class="navigation-close" title="">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </h4>
+
+        </div>
+        <div class="clearfix">
+            <!-- Navigation -->
+
+
+
+
+<div class="navigation">
+    <nav id="sidebar" class="sidebar nav-collapse collapse">
+        <ul id="side-nav" class="side-nav">
+
+                    <li class="active">
+                        <a href="/" title="Dashboard" data-toggle="modal"><i class="fa fa-home"></i> <span class="name">Dashboard</span></a>
+                    </li>
+                    <li class="">
+                        <a href="/ULDMovements" title="ULD Movement" data-toggle="modal"><i class="fa fa-taxi"></i> <span class="name">ULD Movements</span></a>
+                    </li>
+                    <li class="">
+                        <a href="/ServiceRequests" title="Service Requests" data-toggle="modal"><i class="fa fa-cog"></i> <span class="name">Service Requests</span></a>
+                    </li>
+                    <li class="">
+                        <a href="/DriverTickets" title="Driver Tickets" data-toggle="modal"><i class="fa fa-truck"></i> <span class="name">Driver Tickets</span></a>
+                    </li>
+                    <li class="">
+                        <a href="/Assessment" title="Assessments" data-toggle="modal"><i class="fa fa-calendar-check-o"></i> <span class="name">Assessments</span></a>
+                    </li>
+                    <li class="">
+                        <a href="/Repair" title="Repairs" data-toggle="modal"><i class="fa fa-wrench"></i> <span class="name">Repairs</span></a>
+                    </li>
+                    <li class="">
+                        <a href="/Inspection" title="Inspections" data-toggle="modal"><i class="fa fa-search-plus"></i> <span class="name">Inspections</span></a>
+                    </li>
+                    <li class="">
+                        <a href="/Release" title="Releases" data-toggle="modal"><i class="fa fa-share-square-o"></i> <span class="name">Releases</span></a>
+                    </li>
+                    <li class="">
+                        <a href="/Storage" title="Storage" data-toggle="modal"><i class="fa fa-hdd-o"></i> <span class="name">Storage</span></a>
+                    </li>
+                    <li class="">
+                        <a href="/Invoices" title="Invoices" data-toggle="modal"><i class="fa fa-file-text-o"></i> <span class="name">Invoices</span></a>
+                    </li>
+                    <li class="">
+                        <a href="/Allocations" title="Allocations" data-toggle="modal"><i class="fa fa-users"></i> <span class="name">Allocations</span></a>
+                    </li>
+                    <li class="panel">
+                        <a class="accordion-toggle collapsed" data-toggle="collapse" title="Parts Store"
+                           data-parent="#side-nav" href="#menu_partstores"><i class="fa fa-sliders"></i><span class="name">Parts Store</span></a>
+                        <ul id="menu_partstores" class="panel-collapse collapse ">
+                                <li class="">
+                                    <a href="/PurchaseOrder" title="Purchase Orders" data-toggle="modal">Purchase Orders</a>
+                                </li>
+                                <li class="">
+                                    <a href="/PartsTransactions" title="Parts Transactions" data-toggle="modal">Parts Transactions</a>
+                                </li>
+                                <li class="">
+                                    <a href="/PartBudgetFlag" title="Parts Budget Flags" data-toggle="modal">Parts Budget Flags</a>
+                                </li>
+                                <li class="">
+                                    <a href="/Store" title="Store" data-toggle="modal">Store</a>
+                                </li>
+                        </ul>
+                    </li>
+                    <li class="panel">
+                        <a class="accordion-toggle collapsed" data-toggle="collapse" title="Reports"
+                           data-parent="#side-nav" href="#menu_Report"><i class="fa fa-paper-plane"></i><span class="name">Reports</span></a>
+                        <ul id="menu_Report" class="panel-collapse collapse ">
+                                <li class="">
+                                    <a href="/ReportDeliverables" title="ULD T/P - Service Request" data-toggle="modal">ULD T/P - Service Request</a>
+                                </li>
+                                <li class="">
+                                    <a href="/ReportULDService" title="ULD T/P - Service Wise" data-toggle="modal">ULD T/P - Service Wise</a>
+                                </li>
+                                <li class="">
+                                    <a href="/ReportParts" title="Parts" data-toggle="modal">Parts</a>
+                                </li>
+                                <li class="">
+                                    <a href="/ReportAttendance" title="Attendance Report" data-toggle="modal">Attendance Report</a>
+                                </li>
+                        </ul>
+                    </li>
+                    <li class="panel">
+                        <a class="accordion-toggle collapsed" data-toggle="collapse" title="Quality"
+                           data-parent="#side-nav" href="#menu_quality"><i class="fa fa-pencil"></i><span class="name">Quality</span></a>
+                        <ul id="menu_quality" class="panel-collapse collapse ">
+                                <li class="">
+                                    <a href="/TrainingReview" title="Training Review" data-toggle="modal">Training Review</a>
+                                </li>
+                                <li class="">
+                                    <a href="/QualityDocuments/Index/1" title="Quality Documents" data-toggle="modal">Quality Documents</a>
+                                </li>
+                                <li class="">
+                                    <a href="/CMM" title="CMMs" data-toggle="modal">CMMs</a>
+                                </li>
+                                <li class="">
+                                    <a href="/ReleaseCertificate" title="Release Certificates" data-toggle="modal">Release Certificates</a>
+                                </li>
+                        </ul>
+                    </li>
+                    <li class="panel">
+                        <a class="accordion-toggle collapsed" data-toggle="collapse" title="Administration"
+                           data-parent="#side-nav" href="#menu_administration"><i class="fa fa-leaf"></i><span class="name">Administration</span></a>
+                        <ul id="menu_administration" class="panel-collapse collapse ">
+                                <li class="">
+                                    <a href="/ActionTaken" title="Actions Taken" data-toggle="modal">Actions Taken</a>
+                                </li>
+                                <li class="">
+                                    <a href="/AdminDocuments/Index/1" title="Admin Documents" data-toggle="modal">Admin Documents</a>
+                                </li>
+                                <li class="">
+                                    <a href="/Approvals" title="Approvals" data-toggle="modal">Approvals</a>
+                                </li>
+                                <li class="">
+                                    <a href="/BankAccount" title="Bank Accounts" data-toggle="modal">Bank Accounts</a>
+                                </li>
+                                <li class="">
+                                    <a href="/Closures" title="Closures" data-toggle="modal">Closures</a>
+                                </li>
+                                <li class="">
+                                    <a href="/Country/Index/1" title="Country" data-toggle="modal">Country</a>
+                                </li>
+                                <li class="">
+                                    <a href="/CustomField" title="Custom Fields" data-toggle="modal">Custom Fields</a>
+                                </li>
+                                <li class="">
+                                    <a href="/Customer" title="Customers" data-toggle="modal">Customers</a>
+                                </li>
+                                <li class="">
+                                    <a href="/Department" title="Departments" data-toggle="modal">Departments</a>
+                                </li>
+                                <li class="">
+                                    <a href="/Device" title="Devices" data-toggle="modal">Devices</a>
+                                </li>
+                                <li class="">
+                                    <a href="/EquipmentTypes" title="Equipment Types" data-toggle="modal">Equipment Types</a>
+                                </li>
+                                <li class="">
+                                    <a href="/Equipment" title="Equipments" data-toggle="modal">Equipments</a>
+                                </li>
+                                <li class="">
+                                    <a href="/IATACode" title="IATA Codes" data-toggle="modal">IATA Codes</a>
+                                </li>
+                                <li class="">
+                                    <a href="/JobTitle" title="Job Titles" data-toggle="modal">Job Titles</a>
+                                </li>
+                                <li class="">
+                                    <a href="/HolidayTypes" title="Leave Types" data-toggle="modal">Leave Types</a>
+                                </li>
+                                <li class="">
+                                    <a href="/Location" title="Locations" data-toggle="modal">Locations</a>
+                                </li>
+                                <li class="">
+                                    <a href="/Material" title="Materials" data-toggle="modal">Materials</a>
+                                </li>
+                                <li class="">
+                                    <a href="/OEM" title="OEMs" data-toggle="modal">OEMs</a>
+                                </li>
+                                <li class="">
+                                    <a href="/Office" title="Offices" data-toggle="modal">Offices</a>
+                                </li>
+                                <li class="">
+                                    <a href="/Reason" title="Reasons" data-toggle="modal">Reasons</a>
+                                </li>
+                                <li class="">
+                                    <a href="/RecentActivities" title="Recent Activities" data-toggle="modal">Recent Activities</a>
+                                </li>
+                                <li class="">
+                                    <a href="/RolesPermissions" title="Roles &amp; Permissions" data-toggle="modal">Roles &amp; Permissions</a>
+                                </li>
+                                <li class="">
+                                    <a href="/ServiceTask" title="Service Tasks" data-toggle="modal">Service Tasks</a>
+                                </li>
+                                <li class="">
+                                    <a href="/Shift" title="Shifts" data-toggle="modal">Shifts</a>
+                                </li>
+                                <li class="">
+                                    <a href="/Suppliers" title="Suppliers" data-toggle="modal">Suppliers</a>
+                                </li>
+                                <li class="">
+                                    <a href="/TaskCategory" title="Task Categories" data-toggle="modal">Task Categories</a>
+                                </li>
+                                <li class="">
+                                    <a href="/Training" title="Training" data-toggle="modal">Training</a>
+                                </li>
+                                <li class="">
+                                    <a href="/TrainingType" title="Training Types" data-toggle="modal">Training Types</a>
+                                </li>
+                                <li class="">
+                                    <a href="/ULDCategory" title="ULD Categories" data-toggle="modal">ULD Categories</a>
+                                </li>
+                                <li class="">
+                                    <a href="/Users" title="Users" data-toggle="modal">Users</a>
+                                </li>
+                                <li class="">
+                                    <a href="/VatRate" title="Vat Rate" data-toggle="modal">Vat Rate</a>
+                                </li>
+                                <li class="">
+                                    <a href="/Vehicle" title="Vehicles" data-toggle="modal">Vehicles</a>
+                                </li>
+                                <li class="">
+                                    <a href="/Wages" title="Wages" data-toggle="modal">Wages</a>
+                                </li>
+                        </ul>
+                    </li>
+                    <li class="panel">
+                        <a class="accordion-toggle collapsed" data-toggle="collapse" title="Settings"
+                           data-parent="#side-nav" href="#menu_settings"><i class="fa fa-cogs"></i><span class="name">Settings</span></a>
+                        <ul id="menu_settings" class="panel-collapse collapse ">
+                                <li class="">
+                                    <a href="/EmailTemplate" title="Email Templates" data-toggle="modal">Email Templates</a>
+                                </li>
+                                <li class="">
+                                    <a href="/HeadOfficeSetting" title="Head Office Settings" data-toggle="modal">Head Office Settings</a>
+                                </li>
+                                <li class="">
+                                    <a href="/DocumentCategory" title="Document Category" data-toggle="modal">Document Category</a>
+                                </li>
+                        </ul>
+                    </li>
+                    <li class="">
+                        <a href="/AdminBER" title="BER" data-toggle="modal"><i class="fa fa-ban"></i> <span class="name">BER</span></a>
+                    </li>
+        </ul>
+    </nav>
+</div>
+
+<div id="create-from-navigation" class="modal fade" data-backdrop="static" role="entity" aria-hidden="true"></div>
+
+
+
+            
+
+            <!-- Content Part -->
+            <div class="wrap">
+                <!-- Top Header-->
+
+
+                <input type="hidden" id="hdnApiUrl" value="http://localhost:6323/" />
+
+                <input type="hidden" id="hdnLoggenInUserId" value="1" />
+
+                <input id="punchByLogin" type="hidden" />
+
+                <header class="page-header">
+                    <div class="navbar">
+                        <!-- Serach Txt -->
+                        <ul class="nav navbar-nav navbar-right pull-right">
+                                <li class="visible-phone-landscape">
+                                    <a href="#" id="search-toggle">
+                                        <i class="fa fa-search"></i>
+                                    </a>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="#" title="Messages" id="messages"
+                                       class="dropdown-toggle"
+                                       data-toggle="dropdown">
+                                        <i class="glyphicon glyphicon-plus"></i>
+                                    </a>
+                                    <ul id="messages-menu" class="dropdown-menu messages" role="menu">
+                                            <li role="presentation">
+                                                <a href="/ServiceRequests/add" class="message">
+                                                    Service Request
+                                                </a>
+                                            </li>
+                                                                                    <li role="presentation">
+                                                <a href="/Customer/add" class="message">
+                                                    Customer
+                                                </a>
+                                            </li>
+                                                                                    <li role="presentation">
+                                                <a href="/users/add" class="message">
+                                                    User
+                                                </a>
+                                            </li>
+                                        <li role="presentation">
+                                            <a href="#" id="btnOpenTimeSheetPopUp" class="message">
+                                                Timesheet
+                                            </a>
+                                        </li>
+
+                                    </ul>
+                                </li>
+                            <li class="dropdown">
+                                    <a id="btnPunch" href="#" title="Punch in/out" data-placement="bottom" class="dropdown-toggle tooltip-title">
+                                        <i class="fa fa-clock-o"></i>
+                                    </a>
+
+                            </li>
+
+                            <li class="dropdown pt3">
+                                <a id="btnnotificationlist" title="" href="#"
+                                   class="dropdown-toggle"
+                                   data-toggle="dropdown">
+                                    <i class="fa fa-bell"></i>
+                                    <span class="count pendingcount">0</span>
+                                </a>
+                                <ul id="support-menu" class="dropdown-menu support notificationDetailul" role="menu"><li>show all</li></ul>
+
+                            </li>
+                            
+                            <li class="dropdown ml5 pt2">
+                                <a href="#" title="Default User" id="account"
+                                   class="dropdown-toggle"
+                                   data-toggle="dropdown">
+                                        <img src="http://localhost:26583//content/img/avatar.jpg" width="30" height="30" class="img-circle" />
+                                </a>
+                                <ul id="account-menu" class="dropdown-menu account" role="menu">
+                                    <li role="presentation" class="account-picture">
+                                        Default User
+
+                                    </li>
+                                        <li role="presentation">
+                                            <a href="/Users/Profile" class="link">
+                                                <i class="fa fa-user"></i>
+                                                My Profile
+                                            </a>
+                                        </li>
+                                    <li>
+                                        <a href="#" id="btnchangepassword" onclick='changePassword(1)' class="link">
+                                            <i class="fa fa-key"></i>
+                                            Change Password
+                                        </a>
+                                    </li>
+                                        <li>
+                                            
+                                            <a href="/Allocations/MyIndex?id=0&date=''" class="link">
+
+                                                <i class="fa fa-users"></i>
+                                                My Allocations
+                                            </a>
+                                        </li>
+                                                                            <li>
+                                            <a href="/TimeSheet" class="link">
+                                                <i class="fa fa-clock-o"></i>
+                                                My Timesheet
+                                            </a>
+                                        </li>
+                                                                            <li>
+                                            <a href="/leave" class="link">
+                                                <i class="fa fa-calendar"></i>
+                                                My Leave
+                                            </a>
+                                        </li>
+                                                                            <li>
+                                            <a href="/MyTraining" class="link">
+                                                <i class="fa fa-book"></i>
+                                                My Training
+                                            </a>
+                                        </li>
+                                </ul>
+                            </li>
+                            <li class="visible-xs">
+                                <a href="#"
+                                   class="btn-navbar"
+                                   data-toggle="collapse"
+                                   data-target=".sidebar"
+                                   title="">
+                                    <i class="fa fa-bars"></i>
+                                </a>
+                            </li>
+                            <li class="hidden-xs pt3"><a href="javascript:void(0);" id="btnlogout"><i class="glyphicon glyphicon-off"></i></a></li>
+                                <li class="">
+                                    <a title="Help Manual" class="" id="helmenuallink" href="https://sway.com/UDLXnm6UJhzonZjm?ref=Link" target="_blank"><i style="font-size: 1.5em ;margin-top: 5px;" class="fa fa-question-circle fa-2x"></i></a>
+                                </li>
+                        </ul>
+
+
+                        <form id="search-form" class="navbar-form pull-right" role="search">
+                                <input type="search" style="width:450px" id="global-search" class="form-control search-query" placeholder="Driver Ticket No,Repair Job No,Form1,ULD Serial No,CoC / Form 1 / 8130-3 No" title="Driver Ticket No,Repair Job No,Form1,ULD Serial No,CoC / Form 1 / 8130-3 No">
+                        </form>
+                    </div>
+                </header>
+                <!-- Content Part -->
+                <div class="content container">
+
+                    <input type="hidden" value="False" id="hdnIsExternalLogin" />
+                    
+
+<link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+<!-- STYLE CSS -->
+<style type="text/css">
+    .linechart {
+        position: relative;
+        z-index: 0;
+        height: 300px;
+        width: 100%;
+        line-height: 17px;
+    }
+
+        .linechart > canvas {
+            width: 100% !important;
+        }
+
+        .linechart > div {
+            display: none;
+            /*position: absolute;
+            z-index: 1;
+            left: 0;
+            top: 0;*/
+            font-size: 12px;
+            line-height: 16px;
+            white-space: nowrap;
+            color: black;
+            padding: 5px 10px;
+            border: 1px solid #D5D5D5;
+            background-color: white;
+            box-shadow: 0 5px 15px rgba(56,56,56,0.15);
+        }
+</style>
+<div class="row">
+    <div class="col-md-12">
+        <div class="clearfix widget">
+            <div class="pull-left">
+                <ol class="breadcrumb mb5">
+                    <li class="breadcrumb-item"><a href="/">Dashboard</a></li>
+                </ol>
+
+            </div>
+            <div class="pull-right">
+
+            </div>
+        </div>
+    </div>
+</div>
+ 
+<input type="hidden" typeof="text" value="1" id="userid" />
+
+<input type="hidden" id="hdnIsExternalLogin" />
+
+<input type="hidden" value="True" id="hdnHasInvoicePermission"/>
+<div class="row">
+    <div class="col-md-12">
+        <div class="widget clearfix">
+            <div class="row mb30">
+                <div class="col-md-12 top-filter text-right">
+                    <div class="form-inline">
+                        <div class="display-inline" id="OfficeSection">
+                            <label class="font-b mr10">Office</label>
+<div class="">
+    <div id="div_officeID" onchange="onchange_officeID ();">
+        <input type="hidden" id="officeID" />
+            <select data-placeholder="Select Office" class="select2 form-control" id="ddl_officeID"></select>
+    </div>
+</div>
+<script>
+    function onchange_officeID () {
+       
+        if($('#ddl_officeID option').length > 1) {
+            var value = $("#ddl_officeID").parent().find("select").val();
+            if (value == 'Select Office')
+            {
+                $("#officeID").val('');
+                $("#").val('');
+            }
+            else
+                $("#officeID").val(value);
+            if ('' != '') {
+                var item_val = $('#').val();
+                $("#").val(item_val);
+                if (common.isFunction('SetValue_')) {
+                    SetValue_ (item_val);
+                }
+                bind_ ();
+            }
+        }
+    }
+    function bind_officeID () {        
+        var url = "/../base/dropdown?name=OfficeByUser&id=" + $('#userid').val();
+        var local = 'OfficeByUser' + $('#userid').val();
+        var value = $("#officeID").val();
+        if ('false' == 'true' || true) {
+            $.ajax({
+                url: url,
+                success: function (result) {
+                    var html = '<option>Select Office</option>'
+                    for (var i = 0; i < result.length; i++) {
+                        html += '<option value="' + result[i].id + '">' + result[i].name + '</option>';
+                    }
+                    $('#ddl_officeID').html(html);
+                    $('#ddl_officeID').select2();
+                    if (value == '')
+                    {
+                        value = $("#officeID").val();
+                    }
+
+                    if (value != '') {
+                        if ($('#ddl_officeID option').length > 1)
+                            $('#ddl_officeID').val(value).change();
+                    }
+                }
+            });
+        } else {
+            if (!localStorage.getItem(local)) {
+                $.ajax({
+                    url: url,
+                    success: function (result) {
+                        localStorage.setItem(local, JSON.stringify(result));
+                        var html = '<option>Select Office</option>'
+                        for (var i = 0; i < result.length; i++) {
+                            html += '<option value=' + result[i].id + '>' + result[i].name + '</option>';
+                        }
+                        $('#ddl_officeID').html(html);
+                        $('#ddl_officeID').select2();
+                        if (value != '') {
+                            $('#ddl_officeID').val(value).change();
+                        }
+
+                    }
+                });
+            }
+            else {
+                var result = JSON.parse(localStorage.getItem((local)));
+                if (result) {
+                    var html = '<option>Select Office</option>'
+                    for (var i = 0; i < result.length; i++) {
+                        html += '<option value=' + result[i].id + '>' + result[i].name + '</option>';
+                    }
+                    $('#ddl_officeID').html(html);
+                    $('#ddl_officeID').select2();
+                    if (value != '') {
+                        $('#ddl_officeID').val(value).change();
+                    }
+
+                }
+            }
+        }
+    }
+    $(document).ready(function () {
+        if ('false' == 'false')
+            bind_officeID ();
+    });
+
+    function SetValue_officeID (val) {
+        if (val == undefined || val == '')
+            $('#ddl_officeID').val('Select Office').change();
+        else {
+            if ($('#ddl_officeID option').length > 1)
+                $('#ddl_officeID').val(val).change();
+        }
+        if ('' != '') {
+            var item_val = $('#').val();
+            bind_ ();
+            if (common.isFunction('SetValue_')) {
+                SetValue_ (item_val);
+            }
+        }
+    }
+</script>
+
+                        </div>
+                        <div class="display-inline" id="CustomerSection">
+                            <label class="font-b mr10">Customer</label>
+
+<div class="">
+    <div id="div_customerID" onchange="onchange_customerID ();">
+        <input type="hidden" id="customerID" />
+            <select data-placeholder="Select Customer" class="select2 form-control" id="ddl_customerID"></select>
+    </div>
+</div>
+<script>
+    function onchange_customerID () {
+       
+        if($('#ddl_customerID option').length > 1) {
+            var value = $("#ddl_customerID").parent().find("select").val();
+            if (value == 'Select Customer')
+            {
+                $("#customerID").val('');
+                $("#").val('');
+            }
+            else
+                $("#customerID").val(value);
+            if ('' != '') {
+                var item_val = $('#').val();
+                $("#").val(item_val);
+                if (common.isFunction('SetValue_')) {
+                    SetValue_ (item_val);
+                }
+                bind_ ();
+            }
+        }
+    }
+    function bind_customerID () {        
+        var url = "/../base/dropdown?name=customerlist&id=" + $('#').val();
+        var local = 'customerlist' + $('#').val();
+        var value = $("#customerID").val();
+        if ('false' == 'true' || true) {
+            $.ajax({
+                url: url,
+                success: function (result) {
+                    var html = '<option>Select Customer</option>'
+                    for (var i = 0; i < result.length; i++) {
+                        html += '<option value="' + result[i].id + '">' + result[i].name + '</option>';
+                    }
+                    $('#ddl_customerID').html(html);
+                    $('#ddl_customerID').select2();
+                    if (value == '')
+                    {
+                        value = $("#customerID").val();
+                    }
+
+                    if (value != '') {
+                        if ($('#ddl_customerID option').length > 1)
+                            $('#ddl_customerID').val(value).change();
+                    }
+                }
+            });
+        } else {
+            if (!localStorage.getItem(local)) {
+                $.ajax({
+                    url: url,
+                    success: function (result) {
+                        localStorage.setItem(local, JSON.stringify(result));
+                        var html = '<option>Select Customer</option>'
+                        for (var i = 0; i < result.length; i++) {
+                            html += '<option value=' + result[i].id + '>' + result[i].name + '</option>';
+                        }
+                        $('#ddl_customerID').html(html);
+                        $('#ddl_customerID').select2();
+                        if (value != '') {
+                            $('#ddl_customerID').val(value).change();
+                        }
+
+                    }
+                });
+            }
+            else {
+                var result = JSON.parse(localStorage.getItem((local)));
+                if (result) {
+                    var html = '<option>Select Customer</option>'
+                    for (var i = 0; i < result.length; i++) {
+                        html += '<option value=' + result[i].id + '>' + result[i].name + '</option>';
+                    }
+                    $('#ddl_customerID').html(html);
+                    $('#ddl_customerID').select2();
+                    if (value != '') {
+                        $('#ddl_customerID').val(value).change();
+                    }
+
+                }
+            }
+        }
+    }
+    $(document).ready(function () {
+        if ('false' == 'false')
+            bind_customerID ();
+    });
+
+    function SetValue_customerID (val) {
+        if (val == undefined || val == '')
+            $('#ddl_customerID').val('Select Customer').change();
+        else {
+            if ($('#ddl_customerID option').length > 1)
+                $('#ddl_customerID').val(val).change();
+        }
+        if ('' != '') {
+            var item_val = $('#').val();
+            bind_ ();
+            if (common.isFunction('SetValue_')) {
+                SetValue_ (item_val);
+            }
+        }
+    }
+</script>
+
+                        </div>
+                        <div class="display-inline">
+                            <label class="font-b mr10">Period</label>
+                            <div class="">
+                                <div class="form-control">
+                                    <div id="reportrange" class="pull-right">
+                                        <i class="glyphicon glyphicon-calendar fa fa-calendar"></i>&nbsp;
+                                        <span></span> <b class="caret"></b>
+                                    </div>
+                                </div>
+                                <a id="btnApply" class="btn-primary btn btn-search"> Apply</a>
+                                <a id="btnReset" class="btn btn-warning btn-reset"> Reset</a>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+          <div class="row">
+                <div class="col-md-7">
+                    <div class="row" id="dashboard_area">
+                        
+
+                    </div>
+
+                        <div class="row">
+                            <div class="col-md-12">
+
+                                <div class="clearfix">
+                                    <div class="widget">
+                                        <div class="clearfix">
+                                            <div class="pull-left">
+                                                <div class="clearfix">
+                                                    <div class="pull-left txt-logged">
+                                                        Users logged less than
+                                                        <label class="readonly" id="lblLoggedHours">0 </label>
+                                                    </div>
+                                                    <div class="pull-left txt-logged">&nbsp; Hours</div>
+                                                    <div class="pull-left loggedHours-txt">
+                                                        <span class="input-group date-picker custom-addon">
+                                                            <input type="text" id="loggedHours_datestring" class="form-control" placeholder="Logged Hours Date" />
+                                                            <span class="input-group-addon">
+                                                                <span class="glyphicon glyphicon-calendar"></span>
+                                                            </span>
+                                                            <a href="javascript:void(0);" id="" class="clear_date btn-xs btn-clear tooltip-title" data-original-title="Clear" title=""><i class="fa fa fa-times"></i></a>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row minheight160">
+                                                <div class="table-responsive col-md-12">
+                                                    <div id="tblLoggedHoursListParams"></div>
+                                                    <table class="table table-striped table-hover" id="tblLoggedHoursList">
+                                                        <thead>
+                                                            <tr>
+                                                                <th class="sorting">Employee No</th>
+                                                                <th class="sorting">Employee Name</th>
+                                                                <th class="sorting">Punch In</th>
+                                                                <th class="sorting">Punch out</th>
+                                                                <th class="sorting">Logged Hours</th>
+                                                                <th>Action</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody></tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+
+                                <div class="clearfix">
+                                    <div class="widget">
+                                        <div class="clearfix">
+                                            <div class="pull-left">
+                                                <div class="clearfix">
+                                                    <div class="pull-left txt-logged">
+                                                        Users Allocated less than
+                                                        <label class="readonly" id="lblAllocatedHours">0 </label>
+                                                    </div>
+                                                    <div class="pull-left txt-logged">&nbsp; Hours</div>
+                                                    <div class="pull-left loggedHours-txt">
+                                                        <span class="input-group date-picker custom-addon">
+                                                            <input type="text" id="AllocatedHours_datestring" class="form-control" placeholder="Allocated Hours Date" />
+                                                            <span class="input-group-addon">
+                                                                <span class="glyphicon glyphicon-calendar"></span>
+                                                            </span>
+                                                            <a href="javascript:void(0);" id="" class="clear_date btn-xs btn-clear tooltip-title" data-original-title="Clear" title=""><i class="fa fa fa-times"></i></a>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row minheight160">
+                                                <div class="table-responsive col-md-12">
+                                                    <div id="tblAllocatedHoursListParams"></div>
+                                                    <table class="table table-striped table-hover" id="tblAllocatedHoursList">
+                                                        <thead>
+                                                            <tr>
+                                                                <th class="sorting">Employee No</th>
+                                                                <th class="sorting">Employee Name</th>
+                                                                <th>Allocated Hours</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody></tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                </div>
+                        <div class="col-md-5">
+                            <div class="widget clearfix">
+                                <h4 class="mb10">CashFlow Prediction</h4>
+                                <div class="chart" id="lineChart"><canvas></canvas><div></div></div>
+                            </div>
+                            <div class="widget clearfix">
+                                <div class="clearfix">
+                                    <h4 class="mb10">ULD Types Services Wise</h4>
+                                    <div class="clearfix text-right">
+                                        <div class="form-inline">
+                                            <div class="display-inline" id="CustomerSection">
+                                                <label class="font-b mr10">Customer <a id="selectAllCustomer" class="btn btn-link pt0 pb0 pr3 pl3">Select All</a><a id="deSelectAllCustomer" class="btn btn-link pl3 pb0 pr3 pt0">DeSelect All</a></label>
+                                                <div class="customer-drop-block">                                                   
+<div class="">
+    <div id="div_customer_id" onchange="onchange_customer_id ();">
+        <input type="hidden" id="customer_id" />
+            <select data-placeholder="Select Customer" multiple class="select2 form-control" id="ddl_customer_id"></select>
+    </div>
+</div>
+<script>
+    function onchange_customer_id () {
+        var value = $("#ddl_customer_id").parent().find("select").val();
+        if (value == null)
+            $("#customer_id").val('');
+        else
+            $("#customer_id").val(value.join(','));
+    }
+
+    function bind_customer_id () {
+        var url = "/../base/dropdown?name=customerlist&id=" + $('#').val();
+        if ('false' == 'true' || true) {
+            $.ajax({
+                url: url,
+                success: function (result) {
+                    var html = ''
+                    for (var i = 0; i < result.length; i++) {
+                        html += '<option value=' + result[i].id + '>' + result[i].name + '</option>';
+                    }
+                    $('#ddl_customer_id').html(html);
+                    $('#ddl_customer_id').select2();
+                    if ($("#customer_id").val() != '') {
+                        if ($('#ddl_customer_id option').length > 1)
+                            $('#ddl_customer_id').select2('val', $("#customer_id").val().toString().split(','));
+                    }
+                }
+            });
+        }else{
+            if(!localStorage.getItem('customerlist' + $('#').val())) {
+                $.ajax({
+                    url: url,
+                    success: function (result) {
+                        localStorage.setItem('customerlist' + $('#').val(), JSON.stringify(result));
+                        var html = ''
+                        for (var i = 0; i < result.length; i++) {
+                            html += '<option value=' + result[i].id + '>' + result[i].name + '</option>';
+                        }
+                        $('#ddl_customer_id').html(html);
+                        $('#ddl_customer_id').select2();
+                        if ($("#customer_id").val() != '') {
+                            $('#ddl_customer_id').select2('val', $("#customer_id").val().split(','));
+                        }
+                    }
+                });
+            }
+            else {
+                var result = JSON.parse(localStorage.getItem('customerlist' + $('#ddl_').val()));
+                var html = ''
+                for (var i = 0; i < result.length; i++) {
+                    html += '<option value=' + result[i].id + '>' + result[i].name + '</option>';
+                }
+                $('#ddl_customer_id').html(html);
+                $('#ddl_customer_id').select2();
+                if ($("#customer_id").val() != '') {
+                    $('#ddl_customer_id').select2('val', $("#customer_id").val().split(','));
+                }
+            }
+        }
+    }
+    $(document).ready(function () {
+        if ('false' == 'false')
+            bind_customer_id ();
+    });
+
+    function SetValue_customer_id (val) {
+        $("#customer_id").val(val);
+        if (val == undefined || val == '')
+            $('#ddl_customer_id').select2('val', '');
+        else if ($('#ddl_customer_id option').length > 1) {
+            $('#ddl_customer_id').select2('val', val.toString().split(','));
+        }
+    }
+</script>
+
+
+                                                </div>
+                                            </div>
+                                            <div class="display-inline">
+                                                <div class="form-group">
+                                                    <label class="font-b">Month</label>
+                                                    <div class="input-group date-picker custom-addon" id="">
+                                                        <input type="text" id="invoice_date" class="form-control" />
+                                                        <span class="input-group-addon">
+                                                            <span class="glyphicon glyphicon-calendar"></span>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="display-inline mt23 ml10">
+                                                <a id="btnApply_Chart" class="btn-primary btn btn-search"> Apply</a>
+                                                <a id="btnReset_Chart" class="btn btn-warning btn-reset"> Reset</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <ul class="pie text-center">
+                                    
+
+                                </ul>
+                            </div>
+                        </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- page libs -->
+
+<script src="http://localhost:26583//scripts/dashboard/visualize.js"></script>
+<script src="http://localhost:26583//scripts/dashboard/linechart.js"></script>
+
+<script src="http://localhost:26583//scripts/dashboard/index.js"></script>
+
+
+
+                </div>
+            </div>
+
+        </div>
+
+        <div class="loader-wrap hiding hide">
+            <i class="fa fa-circle-o-notch fa-spin"></i>
+        </div>
+    </div>
+    <!-- Footer Section -->
+    <footer class="footer">
+        <p>&copy; 2019 Airbase GSE. All rights reserved. </p>
+    </footer>
+    <div class="modal fade modal-scroll custom-fullwidth" id="timesheetModal" role="dialog" aria-labelledby="timesheetModal" aria-hidden="true">
+        
+    </div>
+    <div class="modal fade" id="changepasswordModel" role="dialog" aria-labelledby="Change Password" aria-hidden="true">
+        <div class="modal-dialog modal-md">
+    <div class="modal-content">
+        <div class="modal-header clearfix">
+            <h4 class="modal-title">
+                Change Password
+            </h4>
+        </div>
+        <div class="modal-body" id="divchangepasswordpopupbody">
+            <form id="changepassword-form" data-parsley-priority-enabled="true" parsley-validate>
+                <div class="row">
+                    <div class="col-md-12">
+                        <input type="hidden" class="form-control" id="userid" />
+                        <div class="form-group">
+                            <label class="font-b required">Old Password</label>
+                            <div class="">
+
+                                <input type="password" class="form-control" id="oldpassword" placeholder="Old Password" required />
+                                
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="font-b required">New Password</label>
+                            <div class="">
+                                <input type="password" class="form-control" id="newpassword" placeholder="New Password" required />
+                                
+                            </div>
+                        </div>
+
+                        <div class="form-group minheight87">
+                            <label class="font-b required">Confirm Password</label>
+                            <div class="">
+                                <input type="password" class="form-control" id="confirmpassword" placeholder="Confirm Password" data-parsley-comparevalidation="" required />
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="modal-footer">
+            <a href="#" id="btnsavechangepassword" class="btn btn-success"><i class="fa fa-floppy-o"></i> Save</a>
+            <a href="#" class="btn btn-warning" id="btnchangepasswordcancel"><i class="fa fa-times"></i> Cancel</a>
+        </div>
+    </div>
+</div>
+
+    </div>
+
+
+    <div class="modal fade" id="punchPopup" role="dialog" aria-labelledby="punchLate" data-backdrop="static" data-keyboard="false" aria-hidden="true">
+        <div class="modal-dialog modal-md">
+            <div class="modal-content">
+                <div class="modal-header clearfix">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 id="punchTitle" class="modal-title"></h4>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <form id="punchForm" data-parsley-priority-enabled="true" parsley-validate>
+                                <div class="form-group punchLate">
+                                    <label class="font-b required">Reason</label>
+                                    <div class="">
+
+<div class="">
+    <div id="div_punch_reason_id" onchange="onchange_punch_reason_id ();">
+        <input type="hidden" id="punch_reason_id" />
+            <select data-placeholder="Select Reason" class="select2 form-control" id="ddl_punch_reason_id"></select>
+    </div>
+</div>
+<script>
+    function onchange_punch_reason_id () {
+       
+        if($('#ddl_punch_reason_id option').length > 1) {
+            var value = $("#ddl_punch_reason_id").parent().find("select").val();
+            if (value == 'Select Reason')
+            {
+                $("#punch_reason_id").val('');
+                $("#").val('');
+            }
+            else
+                $("#punch_reason_id").val(value);
+            if ('' != '') {
+                var item_val = $('#').val();
+                $("#").val(item_val);
+                if (common.isFunction('SetValue_')) {
+                    SetValue_ (item_val);
+                }
+                bind_ ();
+            }
+        }
+    }
+    function bind_punch_reason_id () {        
+        var url = "/../base/dropdown?name=reasonlist&id=" + $('#').val();
+        var local = 'reasonlist' + $('#').val();
+        var value = $("#punch_reason_id").val();
+        if ('false' == 'true' || true) {
+            $.ajax({
+                url: url,
+                success: function (result) {
+                    var html = '<option>Select Reason</option>'
+                    for (var i = 0; i < result.length; i++) {
+                        html += '<option value="' + result[i].id + '">' + result[i].name + '</option>';
+                    }
+                    $('#ddl_punch_reason_id').html(html);
+                    $('#ddl_punch_reason_id').select2();
+                    if (value == '')
+                    {
+                        value = $("#punch_reason_id").val();
+                    }
+
+                    if (value != '') {
+                        if ($('#ddl_punch_reason_id option').length > 1)
+                            $('#ddl_punch_reason_id').val(value).change();
+                    }
+                }
+            });
+        } else {
+            if (!localStorage.getItem(local)) {
+                $.ajax({
+                    url: url,
+                    success: function (result) {
+                        localStorage.setItem(local, JSON.stringify(result));
+                        var html = '<option>Select Reason</option>'
+                        for (var i = 0; i < result.length; i++) {
+                            html += '<option value=' + result[i].id + '>' + result[i].name + '</option>';
+                        }
+                        $('#ddl_punch_reason_id').html(html);
+                        $('#ddl_punch_reason_id').select2();
+                        if (value != '') {
+                            $('#ddl_punch_reason_id').val(value).change();
+                        }
+
+                    }
+                });
+            }
+            else {
+                var result = JSON.parse(localStorage.getItem((local)));
+                if (result) {
+                    var html = '<option>Select Reason</option>'
+                    for (var i = 0; i < result.length; i++) {
+                        html += '<option value=' + result[i].id + '>' + result[i].name + '</option>';
+                    }
+                    $('#ddl_punch_reason_id').html(html);
+                    $('#ddl_punch_reason_id').select2();
+                    if (value != '') {
+                        $('#ddl_punch_reason_id').val(value).change();
+                    }
+
+                }
+            }
+        }
+    }
+    $(document).ready(function () {
+        if ('true' == 'false')
+            bind_punch_reason_id ();
+    });
+
+    function SetValue_punch_reason_id (val) {
+        if (val == undefined || val == '')
+            $('#ddl_punch_reason_id').val('Select Reason').change();
+        else {
+            if ($('#ddl_punch_reason_id option').length > 1)
+                $('#ddl_punch_reason_id').val(val).change();
+        }
+        if ('' != '') {
+            var item_val = $('#').val();
+            bind_ ();
+            if (common.isFunction('SetValue_')) {
+                SetValue_ (item_val);
+            }
+        }
+    }
+</script>
+
+                                        <font id="valPunchReason" color="red"></font>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="font-b required" id="lbl_punch_approver"></label>
+                                    <div class="">
+
+<div class="">
+    <div id="div_punch_approved_by_user_id" onchange="onchange_punch_approved_by_user_id ();">
+        <input type="hidden" id="punch_approved_by_user_id" />
+            <select data-placeholder="Select Approver" class="select2 form-control" id="ddl_punch_approved_by_user_id" data-parsley-range="[0, 100000000]" data-parsley-validate-if-empty="true" data-parsley-range-message="Please select value."></select>
+    </div>
+</div>
+<script>
+    function onchange_punch_approved_by_user_id () {
+       
+        if($('#ddl_punch_approved_by_user_id option').length > 1) {
+            var value = $("#ddl_punch_approved_by_user_id").parent().find("select").val();
+            if (value == 'Select Approver')
+            {
+                $("#punch_approved_by_user_id").val('');
+                $("#").val('');
+            }
+            else
+                $("#punch_approved_by_user_id").val(value);
+            if ('' != '') {
+                var item_val = $('#').val();
+                $("#").val(item_val);
+                if (common.isFunction('SetValue_')) {
+                    SetValue_ (item_val);
+                }
+                bind_ ();
+            }
+        }
+    }
+    function bind_punch_approved_by_user_id () {        
+        var url = "/../base/dropdown?name=approverlist&id=" + $('#').val();
+        var local = 'approverlist' + $('#').val();
+        var value = $("#punch_approved_by_user_id").val();
+        if ('false' == 'true' || true) {
+            $.ajax({
+                url: url,
+                success: function (result) {
+                    var html = '<option>Select Approver</option>'
+                    for (var i = 0; i < result.length; i++) {
+                        html += '<option value="' + result[i].id + '">' + result[i].name + '</option>';
+                    }
+                    $('#ddl_punch_approved_by_user_id').html(html);
+                    $('#ddl_punch_approved_by_user_id').select2();
+                    if (value == '')
+                    {
+                        value = $("#punch_approved_by_user_id").val();
+                    }
+
+                    if (value != '') {
+                        if ($('#ddl_punch_approved_by_user_id option').length > 1)
+                            $('#ddl_punch_approved_by_user_id').val(value).change();
+                    }
+                }
+            });
+        } else {
+            if (!localStorage.getItem(local)) {
+                $.ajax({
+                    url: url,
+                    success: function (result) {
+                        localStorage.setItem(local, JSON.stringify(result));
+                        var html = '<option>Select Approver</option>'
+                        for (var i = 0; i < result.length; i++) {
+                            html += '<option value=' + result[i].id + '>' + result[i].name + '</option>';
+                        }
+                        $('#ddl_punch_approved_by_user_id').html(html);
+                        $('#ddl_punch_approved_by_user_id').select2();
+                        if (value != '') {
+                            $('#ddl_punch_approved_by_user_id').val(value).change();
+                        }
+
+                    }
+                });
+            }
+            else {
+                var result = JSON.parse(localStorage.getItem((local)));
+                if (result) {
+                    var html = '<option>Select Approver</option>'
+                    for (var i = 0; i < result.length; i++) {
+                        html += '<option value=' + result[i].id + '>' + result[i].name + '</option>';
+                    }
+                    $('#ddl_punch_approved_by_user_id').html(html);
+                    $('#ddl_punch_approved_by_user_id').select2();
+                    if (value != '') {
+                        $('#ddl_punch_approved_by_user_id').val(value).change();
+                    }
+
+                }
+            }
+        }
+    }
+    $(document).ready(function () {
+        if ('true' == 'false')
+            bind_punch_approved_by_user_id ();
+    });
+
+    function SetValue_punch_approved_by_user_id (val) {
+        if (val == undefined || val == '')
+            $('#ddl_punch_approved_by_user_id').val('Select Approver').change();
+        else {
+            if ($('#ddl_punch_approved_by_user_id option').length > 1)
+                $('#ddl_punch_approved_by_user_id').val(val).change();
+        }
+        if ('' != '') {
+            var item_val = $('#').val();
+            bind_ ();
+            if (common.isFunction('SetValue_')) {
+                SetValue_ (item_val);
+            }
+        }
+    }
+</script>
+
+
+                                    </div>
+                                </div>
+                                <div class="form-group punchLate">
+                                    <label class="font-b required">Informed On</label>
+                                    <div class="">
+                                        <div class="input-group date-picker custom-addon" id="controldateTo">
+                                            <input type="text" id="approved_date" class="form-control" />
+                                            <span class="input-group-addon">
+                                                <span class="glyphicon glyphicon-calendar"></span>
+                                            </span>
+                                            <a href="javascript:void(0);" id="" class="clear_date btn-xs btn-clear tooltip-title" data-original-title="Clear" title=""><i class="fa fa fa-times"></i></a>
+                                        </div>
+                                        <font id="valPunchInformedOn" color="red"></font>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="font-b">Notes</label>
+                                    <div class="">
+                                        <textarea class="form-control" id="notes" placeholder="Notes" rows="3"></textarea>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="modal-footer">
+
+                    <a href="#" id="btnPunchSave" class="btn-success btn"><i class="fa fa fa-floppy-o"></i> Save</a>
+                    <button type="button" class="btn btn-warning" data-dismiss="modal">Cancel</button>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- common libraries. required for every page-->
+    
+
+    <script src="http://localhost:26583//scripts/jquery.pjax.js"></script>
+    <script src="http://localhost:26583//scripts/bootstrap.js"></script>
+    <script src="http://localhost:26583//scripts/widgster.js"></script>
+    <script src="http://localhost:26583//scripts/underscore.js"></script>
+    <!-- Custom Scroll js -->
+    <script src="http://localhost:26583//scripts/jquery.slimscroll.js"></script>
+    <!-- common Theme application js -->
+    <script src="http://localhost:26583//scripts/app.js"></script>
+    <script src="http://localhost:26583//scripts/settings.js"></script>
+    <!-- Custom Select box-->
+    <script src="http://localhost:26583//scripts/select2.js"></script>
+    <!-- Switch Button -->
+    <script src="http://localhost:26583//scripts/switchery.js"></script>
+    <!-- Date Picker-->
+    <script src="http://localhost:26583//scripts/moment.js"></script>
+    <script src="http://localhost:26583//scripts/daterangepicker.js"></script>
+    <!-- TIme Picker -->
+    <script src="http://localhost:26583//scripts/bootstrap-timepicker.js"></script>
+    <!-- Input Mask-->
+    <script src="http://localhost:26583//scripts/jquery.maskedinput.js"></script>
+    <!-- common js -->
+    <!-- DataTable File -->
+    <script src="http://localhost:26583//scripts/jquery.datatables.js"></script>
+    <!-- Data Table With Bootstrap js File-->
+    <script src="http://localhost:26583//scripts/dataTables.bootstrap.min.js"></script>
+
+    <script src="http://localhost:26583//scripts/jquery-extensions.js"></script>
+    <script src="http://localhost:26583//scripts/toastr.min.js"></script>
+    <script src="http://localhost:26583//scripts/bootbox.js"></script>
+    <script src="http://localhost:26583//scripts/parsley.min.js"></script>
+
+    <script src="http://localhost:26583//scripts/awesomplete.min.js"></script>
+    
+    <script src="http://localhost:26583//scripts/jquery.blockUI.js"></script>
+    <!--Tab Drop Tabbing View on Small View - JS File-->
+    <script src="http://localhost:26583//scripts/bootstrap-tabdrop.js"></script>
+    <!--Add Menu Common JS File Custom Scroll Add  -->
+    <script src="http://localhost:26583//scripts/menuCommon.js"></script>
+    <!-- navigation -->
+
+    <script src="http://localhost:26583//scripts/jsrender.min.js"></script>
+    <script src="http://localhost:26583//scripts/notification/jquery.signalR-2.2.1.js"></script>
+    <script src="http://localhost:26583//scripts/notification/pendingCounts.js"></script>
+    <script src="http://localhost:26583//scripts/notification/realtimenotification.js"></script>
+    <script src="http://localhost:6323//signalr/hubs"></script>
+
+    <!--end notification-->
+
+
+    <script src="http://localhost:26583//scripts/common.js"></script>
+
+    <!--global search Auto Complete.-->
+    <script src="http://localhost:26583//scripts/search/jquery.easy-autocomplete.js"></script>
+    <script src="http://localhost:26583//scripts/search/index.js"></script>
+
+    <!--Punch -->
+    <script src="http://localhost:26583//scripts/Payroll/Punch/punch.js"></script>
+
+    <!--ChangePassword -->
+    <script src="http://localhost:26583//scripts/users/changepassword.js"></script>
+    <script>
+        $(document).ready(function () {
+            GetHelpDocumentLink();
+            //Tab Drop Tabbing View on Small View - Function
+            $('.nav-tabs').tabdrop()
+
+            if (common.getCache("DoPunch") == 1) {
+                $('#punchByLogin').val(1);
+                $('#btnPunch').click();
+            } else {
+                $('#punchByLogin').val(0);
+            }
+
+            setInterval(function () {
+                if (common.readCookie('authenticationtoken') == null || common.readCookie('authenticationtoken') == '') {
+                    common.eraseCookie('authenticationtoken');
+                    common.eraseCookie('UserId');
+                    window.location.href = layout.varibles.logoutredirectUrl;
+                }
+            }, 500);
+        });
+
+        $("#lnkaddnewcontact").click(function () {
+            $('#modaltitle').text("Add New Contact");
+            $('#addNewContact').modal('show');
+            save = false;
+        });
+
+        var GetHelpDocumentLink = function () {
+
+            var currenturl = window.location.href;
+            var urlarray = String(currenturl).split('/')
+            var urlarraytext = urlarray[3]
+
+            var modulename = "";
+            $('input[name=helpmenualdocument]')
+            $.each($('input[name=helpmenualdocument]'), function (index, element) {
+
+                modulename = $(this).attr("tag");
+                if (currenturl.includes(modulename)) {
+                    var newurl = $(this).val();
+                    $('#helmenuallink').attr("href", newurl);
+                }
+                if (urlarraytext == "HeadOfficeSetting") {
+                    $('#helmenuallink').attr("href", "https://sway.com/Ef4bpRO0PEBoKQzR");
+                }
+                else if (urlarraytext == "EquipmentTypes") {
+
+                    $('#helmenuallink').attr("href", "https://sway.com/RbHchMKP0LLG04Er");
+                }
+                else if (urlarraytext == "ActionTaken") {
+                    $('#helmenuallink').attr("href", "https://sway.com/72twJ8cW55XGioNP");
+                }
+
+            })
+        }
+    </script>
+</body>
+</html>
